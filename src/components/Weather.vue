@@ -3,7 +3,7 @@
     <input
       type="text"
       class="search"
-      placeholder="Search..."
+      placeholder="What city?"
       v-model="value"
       @keyup.enter="setQuery"
     >
@@ -45,9 +45,6 @@ export default {
       console.log(this.weather)
     }
   }
-  // props: {
-  //   msg: String
-  // }
 }
 </script>
 
