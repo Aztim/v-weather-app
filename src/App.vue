@@ -1,5 +1,6 @@
 <template>
-  <div class="main-container">
+  <div>
+  <!-- <div class="main-container"> -->
     <Weather />
   </div>
 </template>
