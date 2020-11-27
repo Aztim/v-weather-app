@@ -116,7 +116,6 @@
 
 <script>
 // import { fetchWeather } from '@/api/fetchWeather.js'
-// import '@/App.css'
 
 export default {
   name: 'Weather',
@@ -220,6 +219,6 @@ export default {
 </script>
 
 <style scoped>
-  /* @import './assets/animation.css' */
-  @import '../assets/custom.css'
+@import '../assets/animation.css';
+@import '../assets/custom.css';
 </style>
