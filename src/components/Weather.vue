@@ -116,6 +116,7 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
@@ -217,6 +218,6 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/animation.css';
 @import '../assets/custom.css';
+@import '../assets/animation.css';
 </style>
