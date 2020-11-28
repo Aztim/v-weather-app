@@ -7,7 +7,7 @@
     --blend-to: 100%;
     --blend-dir: top right;
   }
-  
+
   [icon] {
     flex: none;
     display: none;
@@ -75,7 +75,7 @@
     --blend-to: 65%;
     --blend-dir: bottom right;
   }
-  
+
   /* SUNNY */
   /* --------------------- */
   .sun {
@@ -106,7 +106,7 @@
       -0.1em -0.1em 0 0.2em rgba(255, 255, 255, 0.3);
     animation: flare 12000ms infinite alternate linear;
   }
-  
+
   /* CLOUDY */
   /* --------------------- */
   .cloud {
@@ -145,7 +145,7 @@
     width: 0.15em;
     height: 0.15em;
   }
-  
+
   /* SNOWY */
   /* --------------------- */
   [icon='snowy'] ul {
@@ -241,7 +241,7 @@
     will-change: border-radius;
     animation: snowman 9000ms infinite ease-in;
   }
-  
+
   /* STORMY */
   /* --------------------- */
   [icon='stormy']::before {
@@ -327,7 +327,7 @@
     left: 33%;
     animation-delay: 2500ms;
   }
-  
+
   /* nightmoon */
   /* --------------------- */
   [icon='nightmoon']::before {
@@ -351,7 +351,7 @@
     will-change: transform;
     animation: revolve 120000ms linear infinite;
   }
-  
+
   .moon {
     position: absolute;
     top: 20%;
@@ -371,7 +371,7 @@
     background-color: var(--blend1);
     box-shadow: 0.01em 0.01em 0.1em 0 var(--blend1);
   }
-  
+
   .moon::before {
     top: 15%;
     left: 55%;
@@ -386,7 +386,7 @@
     height: 15%;
     opacity: 0.2;
   }
-  
+
   .meteor {
     position: absolute;
     background-color: #fff;
@@ -399,27 +399,27 @@
     will-change: transform, opacity;
     animation: meteor 6250ms infinite ease-in;
   }
-  
+
   [icon='sunny'] {
     display: block;
   }
-  
+
   [icon='cloudy'] {
     display: block;
   }
-  
+
   [icon='snowy'] {
     display: block;
   }
-  
+
   [icon='stormy'] {
     display: block;
   }
-  
+
   [icon='nightmoon'] {
     display: block;
   }
-  
+
   @keyframes flare {
     to {
       transform: translate(-0.3em, 0.3em);

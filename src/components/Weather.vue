@@ -11,6 +11,7 @@
           autocomplete='off'
         />
       </form>
+
       <p class='text-center my-3' v-if='cityFound'>No city found</p>
       <div
         class='card rounded my-3 shadow-lg back-card overflow-hidden'
@@ -115,10 +116,7 @@
 </template>
 
 <script>
-// import { fetchWeather } from '@/api/fetchWeather.js'
-
 export default {
-  name: 'Weather',
   data () {
     return {
       cityFound: false,
@@ -130,7 +128,8 @@ export default {
       snowy: false,
       isDay: true,
       citySearch: '',
-      weather: {}
+      weather: {
+      }
     }
   },
   methods: {
@@ -141,7 +140,7 @@ export default {
       try {
         const response = await fetch(baseURL)
         const data = await response.json()
-
+        console.log(data)
         this.citySearch = ''
         this.weather.cityName = data.name
         this.weather.country = data.sys.country
@@ -159,7 +158,6 @@ export default {
           this.isDay = true
         }
         const mainWeather = data.weather[0].main
-
         // check weather animations
         if (mainWeather.includes('Clouds')) {
           this.stormy = false
