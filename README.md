@@ -1,6 +1,6 @@
 # v-pwa-weather-app
 
-Ｔｈｅ ｗｅａｔｈｅｒ ａｐｐ ｉｓ ｄｅｓｉｇｎｅｄ ｗｉｔｈ ＨＴＭＬ, ＣＳＳ, Ｂｏｏｔｓｔｒａｐ ａｎｄ Ｖｕｅ ｉｎ ｏｒｄｅｒ ｔｏ ｐｒａｃｔｉｃｅ.
+The weather app  is designed   with HTML, CSS, Bootstrap and Vue in order to practice.
 
 
 ## Project setup
